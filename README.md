@@ -1,7 +1,9 @@
 # kenu-senate-trades
 
 US Senate periodic transaction reports from 1 January 2025, read from the public eFD site (efdsearch.senate.gov) by `collect.py`
-on GitHub Actions, every 4 hours and on demand. The site refuses visitors from outside the US, which is why this runs here.
+on GitHub Actions, on demand. The site refuses visitors from outside the US, which is why this runs here.
+
+**Stopped.** On 1 November 2026 the site refused GitHub's computers too (HTTP 403), so the 4-hourly schedule is off and no reports have been read.
 
 - `data/index.json`: every report the Senate's search lists
 - `data/reports/`: one file per report: electronic reports as data and as the saved page, paper reports' details
